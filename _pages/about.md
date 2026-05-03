@@ -28,8 +28,12 @@ latest_posts:
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
-I am an undergraduate student in Computer Science at National Yang Ming Chiao Tung University, with a minor in Applied Mathematics. My interests include competitive programming, algorithms, linear bandits, reinforcement learning, and quantitative finance. I have worked on research projects in linear bandits and practical projects in trading systems and quantitative research.
-這
+I am a fourth-year undergraduate student in Computer Science at National Yang Ming Chiao Tung University, with a minor in Applied Mathematics.
+
+My research and professional interests include linear bandits, reinforcement learning, and quantitative finance. I am also interested in competitive programming and algorithms.
+
+I have worked as a Quantitative Research Intern at A&R Research Capital and as a Quantitative Trading Program Trainee at Kronos Research. I was also selected for the Summer Internship Program at the Institute of Information Science, Academia Sinica.
+
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
