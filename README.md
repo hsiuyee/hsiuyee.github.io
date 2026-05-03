@@ -256,7 +256,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
-  - [QFR OA (2026 VICI Summer Internship)](#QFR_2026_VICI)
+  - [Table Of Contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
