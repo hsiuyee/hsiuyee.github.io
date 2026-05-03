@@ -72,15 +72,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-quantitative-finance-researcher-online-assignment-2026-vici-summer-internship",
         
-          title: "",
+          title: "Quantitative Finance Researcher Online Assignment (2026 VICI Summer Internship)",
         
-        description: "",
+        description: "step-by-step solution to the QFR online assignment provided by VICI Holdings",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-04-30-QFR_2026_VICI/";
+            window.location.href = "/blog/2026/QFR_2026_VICI/";
           
         },
       },{id: "post-a-post-with-plotly-js",
