@@ -259,6 +259,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
+      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+        
+          title: "a post with table of contents on a sidebar",
+        
+        description: "an example of a blog post with table of contents on a sidebar",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
+          
+        },
       },{id: "post-quantitative-finance-researcher-online-assignment-2026-vici-summer-internship",
         
           title: "Quantitative Finance Researcher Online Assignment (2026 VICI Summer Internship)",
@@ -267,7 +278,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -301,17 +312,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
