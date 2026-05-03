@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quantitative Finance Researcher Online Assignment (2026 VICI Summer Internship)
+title: a post with table of contents on a sidebar
 date: 2023-04-25 10:14:00-0400
 description: an example of a blog post with table of contents on a sidebar
 tags: formatting toc sidebar
@@ -11,174 +11,37 @@ toc:
   sidebar: left
 ---
 
+This post shows how to add a table of contents as a sidebar.
+
+## Adding a Table of Contents
+
+To add a table of contents to a post as a sidebar, simply add
 
 ```yml
 toc:
   sidebar: left
 ```
 
-# Intro
+to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change `left` to `right`.
 
-This post provides a step-by-step solution to the online assignment provided by [VICI Holdings](https://www.viciholdings.com/) from a quantitative finance perspective.
+### Example of Sub-Heading 1
 
-## Data Observations
+Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
-In the zero stage, we observe that the data distribution is very unbalanced and concentrated on class 0, both in the training and evaluation datasets. The detailed information is as follows:
+### Example of another Sub-Heading 1
 
-|  | Train Data | Eval Data |
-| --- | --- | --- |
-| Class 0 | 54.24% | 54.06% |
-| Class 1 | 21.88% | 21.19% |
-| Class 2 | 23.88% | 24.75% |
+Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
-As we can see, more than half of the data is concentrated in class 0. Therefore, we use the F1-score instead of accuracy for our evaluations because this metric is more appropriate for estimation in an unbalanced dataset.
+## Customizing Your Table of Contents
 
-## Conclusion
+{:data-toc-text="Customizing"}
 
-> TL;DR: By using ensemble models, applying LogisticSigmoid feature scaling, and using random search for hyperparameter tuning, we improved accuracy by about +9.86% (≈ +19.6% relative) and macro F1 by about +16.38% (≈ +41.3% relative) on the evaluation dataset.
-> 
+If you want to learn more about how to customize the table of contents of your sidebar, you can check the [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.
 
-# F1-score Optimization
+### Example of Sub-Heading 2
 
-In the first stage, we build a basic linear model, `SGDClassifier`, using the scikit-learn library, without any regularization terms, special data transformations, or complex models, to serve as our baseline. We then compare the 11 linear and tree-based models listed on the [sklearn.linear_model](https://scikit-learn.org/stable/modules/linear_model.html), [sklearn.naive_bayes](https://scikit-learn.org/stable/modules/naive_bayes.html), [sklearn.tree](https://scikit-learn.org/stable/modules/tree.html), and [sklearn.ensemble](https://scikit-learn.org/stable/api/sklearn.ensemble.html) pages, and select the models with the top three F1-scores on the evaluation dataset as our candidate models.
+Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
-## Model Sturctures
+### Example of another Sub-Heading 2
 
-| **model** | **train_accuracy** | **train_macro_f1** | **eval_accuracy** | **eval_macro_f1** |
-| --- | --- | --- | --- | --- |
-| **HistGradientBoosting** | 0.62859 | 0.598935 | 0.59866 | 0.560088 |
-| **RandomForest** | 1.0 | 1.0 | 0.58702 | 0.54218 |
-| **ExtraTrees** | 1.0 | 1.0 | 0.585008 | 0.538936 |
-| **RidgeClassifier** | 0.5799 | 0.507133 | 0.577786 | 0.520994 |
-| **DecisionTree** | 1.0 | 1.0 | 0.526877 | 0.511301 |
-| **PassiveAggressive** | 0.51688 | 0.496916 | 0.52054 | 0.505316 |
-| **GaussianNB** | 0.509092 | 0.494076 | 0.516318 | 0.50131 |
-| **Perceptron** | 0.411236 | 0.391859 | 0.429896 | 0.409868 |
-| **SGD_LinearSVM** | 0.488353 | 0.397915 | 0.498656 | 0.396802 |
-| **SGD_Logistic** | 0.491731 | 0.39739 | 0.501752 | 0.39657 |
-| **LogisticRegression** | 0.53719 | 0.25302 | 0.537412 | 0.249521 |
-
-From the experiment, we found that `HistGradientBoosting`, `RandomForest`, and `ExtraTrees` achieved higher F1-score values than the other seven models. Therefore, we selected them as our candidate models. In other words, ensemble methods are more powerful than linear models, naive Bayes models, and single-tree models in this problem.
-
-## Feature Scaling-1 (sklearn)
-
-Next, we apply `StandardScaler`, `QuantileTransformer`, `Normalizer`, and `KBinsDiscretizer` from [sklearn.preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html) to generate different feature representations. The results are shown below.
-
-| **preprocessor** | **model** | **train_accuracy** | **train_macro_f1** | **eval_accuracy** | **eval_macro_f1** |
-| --- | --- | --- | --- | --- | --- |
-| **Normalizer** | HistGradientBoosting | 0.617191 | 0.58534 | 0.597857 | 0.567487 |
-| **QuantileTransformer** | HistGradientBoosting | 0.627838 | 0.598177 | 0.599152 | 0.561861 |
-| **Raw** | HistGradientBoosting | 0.62859 | 0.598935 | 0.59866 | 0.560088 |
-| **StandardScaler** | HistGradientBoosting | 0.627068 | 0.596979 | 0.598817 | 0.559609 |
-| **KBinsDiscretizer** | HistGradientBoosting | 0.600216 | 0.562204 | 0.588176 | 0.556625 |
-| **StandardScaler** | RandomForest | 1.0 | 1.0 | 0.58814 | 0.543117 |
-| **QuantileTransformer** | RandomForest | 1.0 | 1.0 | 0.587569 | 0.542623 |
-| **Raw** | RandomForest | 1.0 | 1.0 | 0.58702 | 0.54218 |
-| **Normalizer** | RandomForest | 1.0 | 1.0 | 0.584748 | 0.540456 |
-| **Raw** | ExtraTrees | 1.0 | 1.0 | 0.585008 | 0.538936 |
-| **StandardScaler** | ExtraTrees | 1.0 | 1.0 | 0.584583 | 0.538791 |
-| **KBinsDiscretizer** | RandomForest | 0.999999 | 0.999999 | 0.577488 | 0.538023 |
-| **KBinsDiscretizer** | ExtraTrees | 0.999999 | 0.999999 | 0.577513 | 0.535898 |
-| **Normalizer** | ExtraTrees | 1.0 | 1.0 | 0.582915 | 0.532122 |
-| **QuantileTransformer** | ExtraTrees | 1.0 | 1.0 | 0.584941 | 0.530738 |
-
-As we can see, `HistGradientBoosting` is the most robust model because it avoids the so-called overfitting problem compared to the other models. Moreover, applying continuous transformations, such as Normalizer and Raw, improves the evaluation F1-score and achieves higher performance than the discrete transformation method, KBinsDiscretizer. Thus, continuous transformation methods are more promising than discrete transformation methods. Therefore, we choose HistGradientBoosting as the model for the following experiments.
-
-## Feature Scaling-2 (continuous scaling)
-
-Since continuous scaling methods appear to be powerful, we were interested in whether this result could achieve a higher F1-score if we used other continuous scaling methods. Therefore, we reviewed the paper [*The Impact of Feature Scaling in Machine Learning: Effects on Regression and Classification Tasks*](https://arxiv.org/abs/2506.08274) and included ten additional scaling methods. Their formulas and results are shown below.
-
-| Type | Method | Formula |
-| --- | --- | --- |
-| 1 | Min-Max Normalization | $X_{\text{norm}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}$ |
-| 2 | Max Normalization | $X_{\text{norm}} = \frac{X}{\max(|X|)}$ |
-| 3 | Z-score Normalization | $X_{\text{norm}} = \frac{X - \mu}{\sigma}$ |
-| 4 | Variable Stability Scaling | $X_{\text{norm}} = \frac{X - \mu}{\sigma}\cdot\frac{\mu}{\sigma}$ |
-| 5 | Pareto Scaling | $X_{\text{norm}} = \frac{X - \mu}{\sqrt{\sigma}}$ |
-| 6 | Mean Centered | $X_{\text{norm}} = X - \mu$ |
-| 7 | Robust Scaler | $X_{\text{norm}} = \frac{X - X_{\text{median}}}{\mathrm{IQR}}$ |
-| 8 | Quantile Transformation | $X_{\text{norm}} = F_{\text{target}}^{-1}\!\bigl(F_{\text{emp}}(X)\bigr)$ |
-| 9 | Decimal Scaling Normalization | $X_{\text{norm}} = \frac{X}{10^j}$ |
-| 10 | Tanh Transformation | $X_{\text{norm}} = \frac{1}{2}\left[\tanh\!\left(0.01\frac{X-\mu}{\sigma}\right)+1\right]$ |
-| 11 | Logistic Sigmoid Transformation | $X_{\text{norm}} = \frac{1}{1+e^{-q}},q = \frac{X-\mu}{\sigma}$ |
-| 12 | Hyperbolic Tangent Transformation  | $X_{\text{norm}} = \frac{1-e^{-q}}{1+e^{-q}},q = \frac{X-\mu}{\sigma}$ |
-
-For detailed definitions of the symbols used in these formulas, please refer to [the paper](https://arxiv.org/abs/2506.08274).
-
-| **scaler** | **train_accuracy** | **train_macro_f1** | **eval_accuracy** | **eval_macro_f1** |
-| --- | --- | --- | --- | --- |
-| **Logistic Sigmoid Transformation** | 0.628126 | 0.598267 | 0.59912 | 0.562195 |
-| **Quantile Transformation** | 0.627838 | 0.598177 | 0.599152 | 0.561861 |
-| **Tanh Transformation** | 0.62706 | 0.59702 | 0.598744 | 0.561458 |
-| **Max Normalization** | 0.62859 | 0.598935 | 0.598661 | 0.560089 |
-| **No** | 0.62859 | 0.598935 | 0.59866 | 0.560088 |
-| **Robust Scaler** | 0.62859 | 0.598935 | 0.59866 | 0.560088 |
-| **Decimal Scaling Normalization** | 0.628447 | 0.598773 | 0.598491 | 0.55969 |
-| **Pareto Scaling** | 0.627069 | 0.596979 | 0.598887 | 0.559622 |
-| **Z-score Normalization** | 0.627068 | 0.596979 | 0.598817 | 0.559609 |
-| **Mean Centered** | 0.627068 | 0.596979 | 0.598817 | 0.559609 |
-| **Min-Max Normalization** | 0.623864 | 0.592967 | 0.598057 | 0.559577 |
-| **Hyperbolic Tangent Transformation** | 0.627061 | 0.596978 | 0.598664 | 0.559445 |
-| **Variable Stability Scaling** | 0.628363 | 0.598586 | 0.598661 | 0.558417 |
-
-As we can see, with the HistGradientBoosting model, the Logistic Sigmoid transformation is the most robust scaling method among the 11 methods presented in the paper. Hence, we choose the Logistic Sigmoid transformation as our scaler.
-
-## Parameter Fine Tuning
-
-Since direct grid search for hyperparameter fine-tuning may waste time exploring less important parameter combinations, we adopt the random search method proposed in the paper *[Random Search for Hyper-Parameter Optimization](https://www.researchgate.net/publication/262395872_Random_Search_for_Hyper-Parameter_Optimization)* for hyperparameter tuning. In this paper, the authors propose the following procedures for hyperparameter tuning.
-
-```python
-1. Define a hyperparameter search space.
-2. Decide the number of trials S based on the computation budget.
-3. Randomly sample S hyperparameter configurations.
-4. Train one model for each configuration.
-5. Evaluate each model on the validation set.
-6. Select the configuration with the best validation score.
-7. Refit the final model using the selected configuration.
-```
-
-In our case, the specific procedures are as follows:
-
-```python
-1. Fix the preprocessing method as LogisticSigmoid.
-2. Fix the model as HistGradientBoosting.
-3. Randomly sample the hyperparameters of HistGradientBoosting.
-4. Select the best hyperparameters based on macro F1 
-on the internal validation set.
-5. Retrain the model on the full training dataset.
-6. Finally, evaluate the model on the evaluation dataset.
-```
-
-Since small changes have little impact on `learning_rate`, `max_iter`, `max_leaf_nodes`, and `min_samples_leaf` when training our models, we sample them using log-uniform or geometric integer distributions. Moreover, since we do not know whether regularization is useful in our experiment, we set `l2_regularization` to 0 with 50% probability and sample it from a log-uniform distribution with 50% probability. In short, we use the following distribution for each parameter.
-
-| Hyperparameter | Distributions |
-| --- | --- |
-| learning_rate | log-uniform |
-| max_iter | geometric integer |
-| max_leaf_nodes | geometric integer |
-| min_samples_leaf | geometric integer |
-| l2_regularization | 50% 抽 0，50% log-uniform |
-
-The best model, with the highest F1-score on the training dataset, has the following hyperparameters, along with its evaluation accuracy and evaluation F1-score.
-
-| **learning_rate** | **max_iter** | **max_leaf_nodes** | **min_samples_leaf** | **l2_regularization** |
-| --- | --- | --- | --- | --- |
-| 0.040865203745585200 | 224 | 120 | 45 | 0.0 |
-
-| **train_accuracy** | **train_macro_f1** | **eval_accuracy** | **eval_macro_f1** |
-| --- | --- | --- | --- |
-| 0.662802 | 0.637082 | 0.600438 | 0.560415 |
-
-From the tables, we observe that although evaluation accuracy shows a slight improvement, the F1-score decreases. This suggests that hyperparameter fine-tuning has limited impact in our problem setting.
-
-# Conclusion
-
-In conclusion, we summarize the following interesting findings:
-
-1. The dataset is unbalanced.
-2. Ensemble methods are more powerful than linear models.
-3. Continuous transformation methods are more promising than discrete transformation methods.
-4. The Logistic Sigmoid transformation is the most robust scaling method.
-5. Hyperparameter fine-tuning has limited impact.
-
-Overall, these results show that by using ensemble models, applying LogisticSigmoid feature scaling, and using random search for hyperparameter tuning, we improved accuracy by about **+9.86% (≈ +19.6% relative)** and macro F1 by about **+16.38% (≈ +41.3% relative)** on the evaluation dataset.
+Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
