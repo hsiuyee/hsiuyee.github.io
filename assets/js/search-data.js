@@ -76,7 +76,7 @@ ninja.data = [{
         
           title: "Quantitative Finance Researcher Online Assignment (2026 VICI Summer Internship)",
         
-        description: "an example of a blog post with table of contents on a sidebar",
+        description: "step-by-step solution to the QFR online assignment provided by VICI Holdings",
         section: "Posts",
         handler: () => {
           
