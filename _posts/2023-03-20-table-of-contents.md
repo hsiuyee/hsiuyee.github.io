@@ -11,11 +11,8 @@ toc:
   sidebar: left
 ---
 
-
-```yml
 toc:
   sidebar: left
-```
 
 # Intro
 
