@@ -15,9 +15,9 @@ schedule:
     description: Overview of the data science workflow and key concepts.
     materials:
       - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
 
   - week: 2
     date: Feb 12
@@ -25,9 +25,9 @@ schedule:
     description: Methods for collecting data through APIs, web scraping, and databases.
     materials:
       - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
 
   - week: 3
     date: Feb 19
@@ -35,7 +35,7 @@ schedule:
     description: Techniques for handling missing values, outliers, and data transformation.
     materials:
       - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Coding Lab
         url: https://github.com/
 

@@ -15,9 +15,9 @@ schedule:
     description: Overview of machine learning, course structure, and expectations.
     materials:
       - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
 
   - week: 2
     date: Sept 12
@@ -35,7 +35,7 @@ schedule:
     description: Logistic regression, decision boundaries, and multi-class classification.
     materials:
       - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Coding Lab
         url: https://github.com/
 
@@ -45,9 +45,9 @@ schedule:
     description: Tree-based methods, ensemble learning, and feature importance.
     materials:
       - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
 
   - week: 5
     date: Oct 3
@@ -55,9 +55,9 @@ schedule:
     description: Margin maximization, kernel methods, and support vectors.
     materials:
       - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
       - name: Review Materials
-        url: /assets/pdf/example_pdf.pdf
+        url: /assets/pdf/CV.pdf
 
   - week: 6
     date: Oct 10
