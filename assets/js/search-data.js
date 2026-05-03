@@ -259,9 +259,9 @@ ninja.data = [{
             window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+      },{id: "post-quantitative-finance-researcher-online-assignment-2026-vici-summer-internship",
         
-          title: "a post with table of contents on a sidebar",
+          title: "Quantitative Finance Researcher Online Assignment (2026 VICI Summer Internship)",
         
         description: "an example of a blog post with table of contents on a sidebar",
         section: "Posts",
