@@ -150,9 +150,9 @@ cv:
         summary: "Fluent (TOEFL iBT: 90/120)"
 
     Interests:
-      - name: Physics
+      - name: Research
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Algorithms, Machine Learning, and Quantitative Research"
 
     # Certificates:
     #   - name: Machine Learning
