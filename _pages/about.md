@@ -31,9 +31,7 @@ latest_posts:
 
 I am a fourth-year undergraduate student in Computer Science at National Yang Ming Chiao Tung University, with a minor in Applied Mathematics.
 
-My research and professional interests include linear bandits, reinforcement learning, and quantitative finance. I am also interested in competitive programming and algorithms.
-
-I have gained experience as a Quantitative Research Intern at A&R Research Capital, a Quantitative Trading Program Trainee at Kronos Research, and a Summer Intern at the Institute of Information Science, Academia Sinica.
+My academic interests include algorithms, machine learning, and quantitative finance. Outside academics, I enjoy psychology, fitness, baking, and cooking.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
