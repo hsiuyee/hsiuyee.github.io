@@ -57,43 +57,53 @@ cv:
           - Proved an $\Omega(n^2)$ space lower bound for transitivity testing using reduction and dynamic programming, and showed the bound is tight.
 is tight.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Kronos Research
+        position: Quantitative Trading Program Trainee 
+        location: Hsinchu, Taiwan
+        start_date: Sep. 2024
+        end_date: Jan. 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed an asynchronous cryptocurrency trading framework with Python asyncio and aioredis for low-latency execution.
+          - Implemented Publisher/Subscriber architecture via Redis pub/sub for real-time market data distribution.
+          - Integrated WooX REST and WebSocket APIs for market and account data streaming.
+          - Designed a modular Strategy Executor supporting CTA and custom strategies.
+          - Implemented API authentication with HMAC-SHA256 signing and timestamp validation.
+          - Skills: Python, asyncio, aioredis, REST API, WebSocket, HMAC-SHA256, Redis pub/sub, Algorithmic Trading
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: A&R Research Capital
+        position: Quantitative Research Intern
+        location: Xinyi District, Taipei, Taiwan
+        start_date: Jun. 2025
+        end_date: Aug. 2025
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+        - Designed a short-only momentum strategy by detecting algorithmic order bursts in medium-sized ETF constituent prints; a 6-month backtest (Jun.--Dec.\ 2024, including 14.25 bps per-side commissions) achieved a Sharpe ratio of 1.64, a 58\% win rate, and a maximum drawdown of 2.7\%.
+        - Reverse-engineered an ETF index methodology from the prospectus and exchange audits, achieving 40/40 correct constituent predictions from 2023 to 2025 and reducing weight RMSE to 0.29\%.
+        - Developed a cross-asset hedging framework using TAIEX futures and rolling-window CAPM for four trading strategies, improving average Sharpe ratio by 0.11 under a beta-neutral constraint.
+        - Benchmarked Elastic Net and linear regression models with RobustScaler, PCA, and SHAP, improving out-of-sample R-squared by 1.48\%.
+        - Skills: Quantitative strategies (momentum, CAPM, GARCH); statistical testing (t-test, FDR, VIF, Breusch--Pagan, Jarque--Bera); Python (NumPy, Pandas, scikit-learn).
+
+      # - company: Karl-Ferdinand University
+      #   position: Professor of Theoretical Physics
+      #   location: Prague, Czechoslovakia
+      #   start_date: 1911
+      #   end_date: 1917
+
+      # - company: University of Zurich
+      #   position: Associate Professor of Theoretical Physics
+      #   location: Zurich, Switzerland
+      #   start_date: 1909
+      #   end_date: 1911
+
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Academic Achievement Award
