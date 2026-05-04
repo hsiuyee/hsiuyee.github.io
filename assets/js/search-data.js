@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/QFR_2026_VICI/";
           
         },
+      },{id: "post-machine-learning-researcher-online-assignment-2026-vici-summer-internship",
+        
+          title: "Machine Learning Researcher Online Assignment (2026 VICI Summer Internship)",
+        
+        description: "step-by-step solution to the QFR online assignment provided by VICI Holdings",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/MLR_2026_VICI/";
+          
+        },
       },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -422,17 +433,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
