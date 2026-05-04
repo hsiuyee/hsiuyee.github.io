@@ -31,9 +31,9 @@ cv:
         start_date: 2022
         end_date: 2026
         score: 3.96/4.3
-      #   courses: "Theory of Relativity"
-      #   highlights:
-      #     - Description 1.
+        # courses: "Theory of Relativity"
+        highlights:
+          - Recipient of the Elite Student Award, awarded NT\$100,000. (Fall 2025).
       #     - Description 2.
 
       # - institution: Eidgenössische Technische Hochschule
