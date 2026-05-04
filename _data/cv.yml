@@ -55,7 +55,6 @@ cv:
         # summary: 
         highlights:
           - Proved an $\Omega(n^2)$ space lower bound for transitivity testing using reduction and dynamic programming, and showed the bound is tight.
-is tight.
 
       - company: Kronos Research
         position: Quantitative Trading Program Trainee 
@@ -77,11 +76,10 @@ is tight.
         end_date: Aug. 2025
         highlights:
         - Designed a short-only momentum strategy by detecting algorithmic order bursts in medium-sized ETF constituent prints; a 6-month backtest (Jun.--Dec.\ 2024, including 14.25 bps per-side commissions) achieved a Sharpe ratio of 1.64, a 58\% win rate, and a maximum drawdown of 2.7\%.
-        - Reverse-engineered an ETF index methodology from the prospectus and exchange audits, achieving 40/40 correct constituent predictions from 2023 to 2025 and reducing weight RMSE to 0.29\%.
+        - Reverse-engineered an ETF index methodology from the prospectus and exchange audits, achieving 40/40 correct constituent predictions from 2023 to 2025 and reducing   weight RMSE to 0.29\%.
         - Developed a cross-asset hedging framework using TAIEX futures and rolling-window CAPM for four trading strategies, improving average Sharpe ratio by 0.11 under a beta-neutral constraint.
         - Benchmarked Elastic Net and linear regression models with RobustScaler, PCA, and SHAP, improving out-of-sample R-squared by 1.48\%.
         - Skills: Quantitative strategies (momentum, CAPM, GARCH); statistical testing (t-test, FDR, VIF, Breusch--Pagan, Jarque--Bera); Python (NumPy, Pandas, scikit-learn).
-
       # - company: Karl-Ferdinand University
       #   position: Professor of Theoretical Physics
       #   location: Prague, Czechoslovakia
@@ -149,7 +147,7 @@ is tight.
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent" (TOEFL iBT: 90/120)
+        summary: "Fluent (TOEFL iBT: 90/120)"
 
     Interests:
       - name: Physics
