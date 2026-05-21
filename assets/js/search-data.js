@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-quantitative-finance-researcher-online-assignment-2026-vici-summer-internship",
+            },{id: "post-how-to-get-quantitative-research-roles-in-taiwan-or-remote",
+        
+          title: "How to get Quantitative Research roles in Taiwan or remote?",
+        
+        description: "step-by-step strategy to QR roles in Taiwan or remote",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/QR_roles/";
+          
+        },
+      },{id: "post-quantitative-finance-researcher-online-assignment-2026-vici-summer-internship",
         
           title: "Quantitative Finance Researcher Online Assignment (2026 VICI Summer Internship)",
         
