@@ -13,8 +13,6 @@ related_posts: false
 #   sidebar: left
 ---
 
-# How to Reduce Attacks and Defensiveness in Your Relationships
-
 # Intro
 
 Have you ever encountered the following situation?
