@@ -17,13 +17,13 @@ related_posts: false
 
 # Intro
 
-> Have you ever encountered the following situation?
+Have you ever encountered the following situation?
 
 One day, you have a conflict with one of your colleagues, friends, or partners. So, you try to solve the conflict between you and the other person. Although you have tried your best to communicate with them, the relationship has worsened, leading to further conflicts.
 
 Therefore, you may feel frustrated since your goals and needs are not being met. Naturally, you want to explain yourself in detail because you feel that the other person does not fully understand what you mean, but this may come across as an attack. On the other hand, the other person feels the same way, so they also explain themselves more, which comes across as defensive. In the end, both of you fall into the well-known [criticism–defensiveness cycle](https://www.gottman.com/blog/criticism-defensiveness-cycle/).
 
-> Have you ever thought about how to avoid or break out of this cycle?
+Have you ever thought about how to avoid or break out of this cycle?
 
 In today’s blog, I wanna share with you a useful technique called nonviolent communication (NVC) to resolve conflicts and truly understand each other.
 
