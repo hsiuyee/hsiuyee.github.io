@@ -39,7 +39,7 @@ ninja.data = [{
               },
             },{id: "post-how-to-reduce-attacks-and-defensiveness-in-your-relationships",
         
-          title: "How to Reduce Attacks and Defensiveness in Your Relationships",
+          title: "How to Reduce Attacks and Defensiveness in Your Relationships?",
         
         description: "reduce attacks and defensiveness in relationships",
         section: "Posts",
