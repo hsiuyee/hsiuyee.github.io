@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-how-to-get-quantitative-research-roles-in-taiwan-or-remote",
+            },{id: "post-how-to-reduce-attacks-and-defensiveness-in-your-relationships",
+        
+          title: "How to Reduce Attacks and Defensiveness in Your Relationships",
+        
+        description: "reduce attacks and defensiveness in relationships",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/How_to_Reduce_Attacks_and_Defensiveness_in_Your_Relationships/";
+          
+        },
+      },{id: "post-how-to-get-quantitative-research-roles-in-taiwan-or-remote",
         
           title: "How to get Quantitative Research roles in Taiwan or remote?",
         
