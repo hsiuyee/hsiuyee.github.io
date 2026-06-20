@@ -29,7 +29,7 @@ In today’s blog, I wanna share with you a useful technique called nonviolent c
 
 # Nonviolent Communication (NVC)
 
-Nonviolent Communication is a language proposed by Marshall B. Rosenberg, Ph.D., in the book [_Nonviolent Communication_](https://www.amazon.com/dp/189200528X?lv=shuf&channelId=500&plpRedirect=mhFallback), which aims to minimize violent reactions such as defending, withdrawing, or attacking.
+Nonviolent Communication is a language proposed by Marshall B. Rosenberg, Ph.D., in the book [Nonviolent Communication](https://www.amazon.com/dp/189200528X?lv=shuf&channelId=500&plpRedirect=mhFallback), which aims to minimize violent reactions such as defending, withdrawing, or attacking.
 
 This method has four steps:
 
@@ -63,6 +63,6 @@ I feel frustrated because I have tried many ways to improve the relationship. Th
 
 # Conclusion
 
-Both speakers and listeners have to practice nonviolent communication to resolve conflicts. Even if the conversation starts to go in the wrong direction, we should identify the four components. This means that instead of reacting automatically with System 1, we need to reflect using System 2 (see [_Thinking, Fast and Slow_](https://www.amazon.com/dp/0374533555?lv=shuf&channelId=500&plpRedirect=mhFallback)).
+Both speakers and listeners have to practice nonviolent communication to resolve conflicts. Even if the conversation starts to go in the wrong direction, we should identify the four components. This means that instead of reacting automatically with System 1, we need to reflect using System 2 (see [Thinking, Fast and Slow](https://www.amazon.com/dp/0374533555?lv=shuf&channelId=500&plpRedirect=mhFallback)).
 
 In this way, we will be less likely to damage the relationship.
